@@ -9,7 +9,7 @@ rev=0
 while [ $n -gt 0 ]
  do
   sd=$(( n%10 ))
-rev=$(( rev*10 + $sd) )
+rev=$(( rev*10 + $sd))
 n=$(( $n/10 ))
 done
 
