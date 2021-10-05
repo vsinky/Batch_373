@@ -10,5 +10,3 @@ read -p "Enter the number" num
         fi
     done
     echo $num is a prime number
-
-
