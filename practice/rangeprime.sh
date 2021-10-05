@@ -1,7 +1,7 @@
 read -p "enter the range Initial-" start
 read -p "enter the range End-" end
 
-for  ((  i=$start ;  i<$end;  i++ ) )
+for  ((  i=$start;  i<$end;  i++ ))
 do
 flag=1
          for ((  j=2 ; j<$(($i/2))  ; ++j  ))

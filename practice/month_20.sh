@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash 
 
 read -p " Enter Date:-" date
 read -p " Enter Month:-" Month
